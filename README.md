@@ -3,7 +3,7 @@ Search-As-You-Type-Index
  'include' folder : the files you need for the SaytIndex (Search as you type Index)
  'Test Search Index' folder: demo ios app compares performances and makes stress tests
 
- SaytIndex (Search-As-You-Type-Index) is a kind of simple search as you type index designed for data more than 10000 in mobile phones, ios, android.It is written in C++.It makes prefix search over index x1000 times faster than the regular array predicate search.Though loading index file fast,there is also asynchronous index file loading method.Note than it can search multi prefixes like 'ne ye' would bring you 'new year',but asynchronous search is just sing word search Stress tests are included in the demo.
+ SaytIndex (Search-As-You-Type-Index) is a kind of simple search as you type index designed for data more than 10000 in mobile phones, ios, android.It is written in C++.It makes prefix search over index x100 times faster than the regular array predicate search.Though loading index file fast,there is also asynchronous index file loading method.Note than it can search multi prefixes like 'ne ye' would bring you 'new year',but asynchronous search is just sing word search Stress tests are included in the demo.
 
  The class structure of index:
 
