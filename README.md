@@ -6,7 +6,7 @@ Search-As-You-Type-Index
  SaytIndex (Search-As-You-Type-Index) is a kind of simple search as you type index designed for data more than 10000 in mobile phones, ios, android.It is written in C++.It makes prefix search over index x100 times faster than the regular array predicate search.Though loading index file fast,there is also asynchronous index file loading method.Note than it can search multi prefixes like 'ne ye' would bring you 'new year',but asynchronous search is just sing word search Stress tests are included in the demo.
 
  The class structure of index:
-
+```c++
   class SaytIndex{
      INDEX* index;
      thread* readThread;
@@ -27,6 +27,7 @@ Search-As-You-Type-Index
 
 
  }; 
+ ```
  Reading Index file in ios
 
  NSString* filePath = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%s" , "index"]
